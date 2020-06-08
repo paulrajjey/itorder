@@ -5,6 +5,7 @@ import java.util.List;
 
 rule "ApprovalLsit"
 	dialect "mvel"
+	ruleflow-group "mgrapproval"
 	when
 		appl : ApproverInfo( )
 		aplist : List( )
