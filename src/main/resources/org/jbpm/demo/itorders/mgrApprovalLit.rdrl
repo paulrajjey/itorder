@@ -13,5 +13,5 @@ rule "mgrApprovalLit"
 		}
 		aplist.add(ap);
 		kcontext.setVariable("",aplist);
-		i
+		kcontext.retract(app);
 end
