@@ -11,4 +11,5 @@ rule "ApprovalLsit"
 		aplist : List( )
 	then
 		aplist.add( appl );
+		System.out.println("Rule fired " + appl.getName());
 end
