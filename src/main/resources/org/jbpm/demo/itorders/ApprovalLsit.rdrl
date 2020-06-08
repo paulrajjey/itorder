@@ -1,0 +1,9 @@
+package org.jbpm.demo.itorders;
+
+import java.lang.Number;
+
+rule "ApprovalLsit"
+	dialect "mvel"
+	when
+	then
+end
